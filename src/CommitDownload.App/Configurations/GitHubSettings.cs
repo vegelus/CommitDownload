@@ -4,4 +4,5 @@ public class GitHubSettings
 {
     public string BaseUrl { get; init; } = "";
     public int PerPage { get; init; }
+    public string? Token { get; init; }
 }
